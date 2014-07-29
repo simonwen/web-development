@@ -1,5 +1,5 @@
 blueprint:
-  name: bp_example
+  name: bp-example
   description: blueprint example
   icon: 
     file : redstone.png
@@ -8,7 +8,7 @@ blueprint:
   documentation : 'http://openstack.org/forj'
   locations:
     modules: 
-      - src-repo: bp_example
+      - src-repo: bp-example
         git: https://github.com/daihaojun/bp-example.git
         install:
           puppet-apply: install
