@@ -9,7 +9,7 @@ blueprint:
   locations:
     modules: 
       - src-repo: bp-example
-        git: https://github.com/daihaojun/bp-example.git
+        git: https://github.com/simonwen/bp-example.git
         install:
           puppet-apply: install
         uninstall:
