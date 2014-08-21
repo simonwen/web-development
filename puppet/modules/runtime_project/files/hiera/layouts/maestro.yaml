@@ -24,7 +24,7 @@ classes:
 # create the folling nodes
 maestro::nodes:
   - 'web'
-  - 'lampu_svn'
+  - 'tomcat'
 
 
 # define the site information for this blueprint
@@ -48,7 +48,7 @@ maestro::instance_domain: '%{::erodomain}'
 salt::salt_reactor:
   - 'maestro'
   - 'web'
-  - 'lampu_svn'
+  - 'tomcat'
 
 puppet::reports::graphite::status: 'enabled'
 puppet::reports::graphite::graphite_port: '2003'
