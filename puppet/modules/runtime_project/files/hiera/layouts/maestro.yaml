@@ -24,7 +24,6 @@ classes:
 # create the folling nodes
 maestro::nodes:
   - 'web'
-  - 'tomcat'
   - 'lampu_svn'
 
 
@@ -49,7 +48,6 @@ maestro::instance_domain: '%{::erodomain}'
 salt::salt_reactor:
   - 'maestro'
   - 'web'
-  - 'tomcat'
   - 'lampu_svn'
 
 puppet::reports::graphite::status: 'enabled'
