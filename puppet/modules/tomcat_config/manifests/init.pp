@@ -1,5 +1,6 @@
 class tomcat_config {
-    package {'tomcat':
-        ensure => present,
-    }
+  version     => 6,
+  repo => {
+    url => "http://archive.apache.org/dist/tomcat/",
+  }
 }
