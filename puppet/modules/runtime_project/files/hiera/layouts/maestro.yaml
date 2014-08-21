@@ -25,7 +25,7 @@ classes:
 maestro::nodes:
   - 'web'
   - 'tomcat'
-  - 'subversion'
+  - 'lampu_svn'
 
 
 # define the site information for this blueprint
@@ -50,7 +50,7 @@ salt::salt_reactor:
   - 'maestro'
   - 'web'
   - 'tomcat'
-  - 'subversion'
+  - 'lampu_svn'
 
 puppet::reports::graphite::status: 'enabled'
 puppet::reports::graphite::graphite_port: '2003'
