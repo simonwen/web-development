@@ -9,7 +9,7 @@ blueprint:
   locations:
     modules: 
       - src-repo: bp-example
-        git: https://github.com/simonwen/web-development
+        git: 
         install:
           puppet-apply: install
         uninstall:
