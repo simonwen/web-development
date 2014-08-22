@@ -1,6 +1,6 @@
 blueprint:
-  name: bp-example
-  description: blueprint example
+  name: web-development
+  description: web-development blueprint
   icon: 
     file : redstone.png
     content : (--- base64 encoded ---)
@@ -8,8 +8,8 @@ blueprint:
   documentation : 'http://openstack.org/forj'
   locations:
     modules: 
-      - src-repo: bp-example
-        git: https://github.com/simonwen/bp-example.git
+      - src-repo: web-development
+        git: https://github.com/simonwen/web-development.git
         install:
           puppet-apply: install
         uninstall:
