@@ -1,6 +1,6 @@
 blueprint:
   name: web-development
-  description: blueprint example
+  description: web-development blueprint
   icon: 
     file : redstone.png
     content : (--- base64 encoded ---)
