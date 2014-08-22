@@ -26,7 +26,8 @@ maestro::nodes:
   - 'web'
   - 'tomcat'
   - 'subversion'
-
+  - 'eclipse'
+  - 'mysql'
 
 # define the site information for this blueprint
 # shortname is a descriptive name, TODO: source this from the blueprint data.
@@ -51,6 +52,8 @@ salt::salt_reactor:
   - 'web'
   - 'tomcat'
   - 'subversion'
+  - 'eclipse'
+  - 'mysql'
 
 puppet::reports::graphite::status: 'enabled'
 puppet::reports::graphite::graphite_port: '2003'
